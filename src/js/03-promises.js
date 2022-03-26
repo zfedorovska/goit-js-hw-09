@@ -4,7 +4,6 @@ const refs = {
     form: document.querySelector('.form'),
 };
 const { elements: { delay, step, amount } } = refs.form;
-
 refs.form.addEventListener('submit', onFormSubmit); 
 
 function onFormSubmit(evt) {
